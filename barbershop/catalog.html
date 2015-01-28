@@ -34,6 +34,51 @@
 					</ul>
 				</nav>
 				<div class="catalog-filter">
+					<form action="/" method="post">
+						<fieldset>
+							<legend>Производители</legend>
+							<label>
+								<input type="checkbox" name="manufacturer" value="1" checked>
+								Baxter of California
+							</label>
+							<label>
+								<input type="checkbox" name="manufacturer" value="2">
+								Mr Natty
+							</label>
+							<label>
+								<input type="checkbox" name="manufacturer" value="3" checked>
+								Sauvecito
+							</label>
+							<label>
+								<input type="checkbox" name="manufacturer" value="4">
+								Malin+Goetz
+							</label>
+							<label>
+								<input type="checkbox" name="manufacturer" value="5">
+								Murray's
+							</label>
+							<label>
+								<input type="checkbox" name="manufacturer" value="6" checked>
+								American Crew
+							</label>
+						</fieldset>
+						<fieldset>
+							<legend>Группы товаров</legend>
+							<label>
+								<input type="radio" name="product-groups" value="1" checked>
+								Бритвенные принадлежности
+							</label>
+							<label>
+								<input type="radio" name="product-groups" value="2">
+								Средства для ухода
+							</label>
+							<label>
+								<input type="radio" name="product-groups" value="3">
+								Аксессуары
+							</label>
+						</fieldset>
+						<button type="submit">Показать</button>
+					</form>
 				</div>
 				<section class="catalog-products">
 					<div class="catalog-product">
