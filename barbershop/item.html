@@ -3,30 +3,19 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Барбершоп «Бородинский» - Набор для путешествий «Baxter of California»</title>
+		<link href="style.css" rel="stylesheet"> 
 	</head>
 	<body>
 		<header class="main-header">
 			<div class="container clearfix">
 				<nav class="main-navigation">
 					<ul>
-						<li>
-							<a href="index.html">Главная</a>
-						</li>
-						<li>
-							<a href="#">Информация</a>
-						</li>
-						<li>
-							<a href="#">Новости</a>
-						</li>
-						<li>
-							<a href="price.html">Прайс-лист</a>
-						</li>
-						<li class="active">
-							<a href="catalog.html">Магазин</a>
-						</li>
-						<li>
-							<a href="#">Контакты</a>
-						</li>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="#">Информация</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="price.html">Прайс-лист</a></li>
+						<li class="active"><a href="catalog.html">Магазин</a></li>
+						<li><a href="#">Контакты</a></li>
 					</ul>
 				</nav>
 				<div class="user-block">
@@ -47,18 +36,22 @@
 					</ul>
 				</nav>
 				<section class="product-photos">
-					<figure class="main-product-photo">
-						<img src="blank.jpg" alt="Набор для путешествий">
-					</figure>
-					<figure class="additional-product-photo">
-						<img src="blank.jpg" alt="Набор для путешествий 2">
-					</figure>
-					<figure class="additional-product-photo">
-						<img src="blank.jpg" alt="Набор для путешествий 3">
-					</figure>
-					<figure class="additional-product-photo">
-						<img src="blank.jpg" alt="Набор для путешествий 3">
-					</figure>
+					<div class="main-product-photo-container">
+						<figure class="main-product-photo">
+							<img src="blank.jpg" alt="Набор для путешествий">
+						</figure>
+					</div>
+					<div class="additional-product-photos-container">
+						<figure class="additional-product-photo">
+							<img src="blank.jpg" alt="Набор для путешествий 2">
+						</figure>
+						<figure class="additional-product-photo">
+							<img src="blank.jpg" alt="Набор для путешествий 3">
+						</figure>
+						<figure class="additional-product-photo">
+							<img src="blank.jpg" alt="Набор для путешествий 3">
+						</figure>
+					</div>
 				</section>
 				<section class="product-info">
 					<div class="product-info-stock">
@@ -79,7 +72,7 @@
 					</div>
 					<div class="product-info-kit">
 						<h3>В набор входят:</h3>
-						<ul>
+						<ul class="product-kit">
 							<li>Средство для умывания (50 мл)</li>
 							<li>Увлажняющий крем (50 мл)</li>
 							<li>Крем для бритья (50 мл)</li>

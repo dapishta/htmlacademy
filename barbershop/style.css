@@ -1,0 +1,173 @@
+body {
+  min-width: 800px;
+  margin: 0;
+  padding: 0;
+  /* background-color: black;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 1800px auto; */
+}
+
+/* Начало отладочной информации */
+
+.body-test {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.body-test-index {
+  background-color: black;
+  background-image: url('barbershop-index.jpg');
+  background-size: 2560px auto;
+}
+
+.body-test-price {
+  background-color: white;
+  background-image: url('barbershop-price.jpg');
+  background-size: 1200px auto;
+}
+
+div, section, nav, header, footer, main {
+  background: rgba(255, 255, 0, 0.5);
+  border: 1px dashed red;
+}
+
+/* Конец отладочной информации */
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* для оформления */
+.main-navigation li{
+  display: inline-block;
+}
+
+.main-header {
+  padding: 5px 0;
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  float: left;
+  width: 800px;
+}
+
+.user-block {
+  float: right;
+  width: 90px;
+}
+
+.main-container {
+  margin: 30px auto;
+}
+
+.logo {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.features-row {
+  margin-bottom: 35px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 21px;
+  /* для оформления */
+  min-height: 220px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 50px;
+  padding: 35px 40px;
+}
+
+.index-content:last-child {
+  
+}
+
+.content-column-left,
+.content-column-right {
+  width: 400px;
+  /* для оформления */
+  min-height: 358px;
+}
+
+.content-column-left {
+  float: left;
+}
+
+.content-column-right {
+  float: right;
+}
+
+.main-footer {
+  padding: 20px 0;
+}
+
+.footer-contacts {
+  float: left;
+  width: 350px;
+  margin-right: 35px;
+}
+
+.footer-social {
+  float: left;
+  width: 200px;
+}
+
+.footer-copyright {
+  float: right;
+
+  width: 300px;
+}
+
+/* для прайс-листа */
+
+.breadcrumbs li{
+  display: inline-block;
+}
+
+.info-content {
+  margin-bottom: 40px;
+}
+
+.info-content:last-child {
+  margin-bottom: 0;
+}
+
+.info-content-left,
+.info-content-right {
+  width: 470px;
+
+  /* для оформления */
+  min-height: 210px;
+}
+
+.info-content-left {
+  float: left;
+}
+
+.info-content-right {
+  float: right;
+}
+
+.heading {
+  /* для оформления */
+  min-height: 150px;
+}
