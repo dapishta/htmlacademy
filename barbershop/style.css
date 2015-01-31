@@ -8,7 +8,7 @@ body {
   background-size: 1800px auto; */
 }
 
-/* Начало отладочной информации */
+/* Начало отладочной информации 
 
 .body-test {
   background-color: black;
@@ -25,6 +25,12 @@ body {
 .body-test-price {
   background-color: white;
   background-image: url('barbershop-price.jpg');
+  background-size: 1200px auto;
+}
+
+.body-test-catalog {
+  background-color: white;
+  background-image: url('barbershop-shop.jpg');
   background-size: 1200px auto;
 }
 
@@ -170,4 +176,47 @@ div, section, nav, header, footer, main {
 .heading {
   /* для оформления */
   min-height: 150px;
+}
+
+
+/* для каталога */
+.catalog-filter {
+  /* display: inline-block; */
+  float: left;
+  width: 220px;
+}
+
+/* -для оформления- */
+.catalog-filter input{
+  display: block;
+}
+
+.catalog-products {
+  float: right;
+  width: 700px;
+  font-size: 0;
+}
+
+.catalog-product {
+  font-size: 14px;
+  display: inline-block;
+  width: 210px;
+  vertical-align: top;
+}
+
+.catalog-product-price{
+  display: inline-block;
+}
+
+.catalog-pagination {
+  display: block;
+  font-size: 14px;
+}
+
+.catalog-pagination li{
+  display: inline-block;
+}
+
+.btn {
+  display: inline-block;
 }
