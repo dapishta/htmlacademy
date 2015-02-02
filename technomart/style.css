@@ -85,10 +85,11 @@ header
 
 .btn-nav
 {
-    background-color: red;
-    color: white;
-    text-transform: uppercase;
     text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+    background-color: red;
 }
 
 /*===============================
@@ -161,6 +162,7 @@ header
 .promo-slider
 {
     float: left;
+
     width: 600px;
 }
 
@@ -187,6 +189,7 @@ header
 .product
 {
     display: inline-block;
+
     vertical-align: top;
 }
 
@@ -217,6 +220,7 @@ header
 .company-info-contacts
 {
     display: inline-block;
+
     vertical-align: top;
 }
 
@@ -249,7 +253,8 @@ header
     float: right;
 }
 
-.footer-menu li{
+.footer-menu li
+{
     display: inline-block;
 }
 
