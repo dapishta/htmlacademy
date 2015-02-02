@@ -1,0 +1,266 @@
+/*===================================
+=            $Содержание            =
+===================================*/
+/**
+*
+* Содержание
+* Отладочная информация
+* Общие стили
+* Header
+* Промо-блок
+* Популярное
+* Сервисы
+* О компании
+* Footer
+**/
+
+
+
+
+body
+{
+    min-width: 940px;
+    margin: 0;
+    padding: 0;
+
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1200px auto;
+}
+
+
+/*==============================================
+=            $Отладочная информация            =
+==============================================
+
+.body-test
+{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1200px auto;
+}
+
+.body-test-index
+{
+    background-image: url('technomart-index.jpg');
+}
+
+div,
+section,
+nav,
+main,
+footer,
+header
+{
+    border: 1px dashed red;
+    background: rgba(255, 255, 0, .5);
+}
+
+/*====================================
+=            $Общие стили            =
+====================================*/
+
+.clearfix:after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+.container
+{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.btn
+{
+    display: inline-block;
+
+    padding: 10px 20px;
+}
+
+.btn-nav
+{
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*===============================
+=            $Header            =
+===============================*/
+
+.header-logo
+{
+    display: inline-block;
+
+    margin: 0;
+}
+
+
+.header-search,
+.header-wishlist,
+.header-cart,
+.header-checkout
+{
+    display: inline-block;
+
+    height: 40px;
+
+    vertical-align: middle;
+}
+
+.description-block,
+.address-block
+{
+    float: left;
+
+    width: 300px;
+}
+
+.user-block
+{
+    float: right;
+}
+
+.main-menu
+{
+    display: block;
+}
+
+.main-menu li
+{
+    display: inline-block;
+}
+
+
+
+
+
+/*===================================
+=            $Промо-блок            =
+===================================*/
+
+.promo-block
+{
+    width: 300px;
+    height: 125px;
+}
+
+.promo-block-materials,
+.promo-block-instrument
+{
+    float: left;
+}
+
+.promo-slider
+{
+    float: left;
+    width: 600px;
+}
+
+.promo-block-tech,
+.promo-block-sales,
+.promo-block-delivery
+{
+    float: right;
+}
+
+
+
+
+
+/*===================================
+=            $Популярное            =
+===================================*/
+
+.popular h2
+{
+    display: inline-block;
+}
+
+.product
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
+
+/*================================
+=            $Сервисы            =
+================================*/
+
+.services-list,
+.services-details
+{
+    display: inline-block;
+}
+
+
+
+
+
+
+/*===================================
+=            $О компании            =
+===================================*/
+
+.company-info-description,
+.company-info-contacts
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.company-info-description
+{
+    width: 550px;
+}
+
+.company-info-contacts
+{
+    width: 350px;
+}
+
+
+
+
+
+/*===============================
+=            $Footer            =
+===============================*/
+
+.footer-logo,
+.footer-contacts
+{
+    float: left;
+}
+
+.footer-menu
+{
+    float: right;
+}
+
+.footer-menu li{
+    display: inline-block;
+}
+
+.footer-copyright,
+.footer-social
+{
+    float: left;
+}
+
+.footer-feedback,
+.footer-author
+{
+    float: right;
+}
