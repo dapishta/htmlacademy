@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
-    <link href="style.css" rel="stylesheet"> 
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="body-test body-test-index">
     <header class="main-header">
@@ -26,7 +28,7 @@
 
     <div class="container">
       <figure class="logo">
-        <img src="http://placehold.it/400x200" width="400" height="200" alt="Barbershoop Borodinski">
+        <img src="img/logo.png" width="368" height="204" alt="Barbershoop Borodinski">
       </figure>
       <section class="features-row clearfix">
         <div class="features-item">
@@ -61,7 +63,7 @@
           <h2 class="content-column-title">Фотогалерея</h2>
           <div class="gallery">
             <figure class="gallery-content">
-              <img src="http://placehold.it/200x120" width="200" height="120" alt="">
+              <img src="img/photo-1.jpg" width="328" height="164" alt="Салон Barbershop">
             </figure>
             <button class="btn gallery-prev">Назад</button>
             <button class="btn gallery-next">Вперед</button>
@@ -90,7 +92,7 @@
           <div class="appointment-form">
             <h2 class="content-column-title">Записаться</h2>
             <p>Укажите желаемую дату и&nbsp;время и&nbsp;мы&nbsp;свяжемся с&nbsp;вами для подтверждения брони</p>
-            <form action="/echo" method="post">
+            <form action="" method="post">
               <input type="date" name="date" value="" placeholder="Дата">
               <input type="time" name="time" value="" placeholder="Время">
               <input type="text" name="name" value="" placeholder="Ваше имя">
