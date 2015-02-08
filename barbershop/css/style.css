@@ -4,12 +4,19 @@
 /**
 *
 * Содержание
-* Отладка
 * Общие стили
 * Header
 * Главная
 * Footer
 **/
+
+
+
+
+/*====================================
+=            $Общие стили            =
+====================================*/
+
 
 body {
     font-size: 14px;
@@ -17,60 +24,18 @@ body {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    color: #ffffff;
     min-width: 960px;
+}
+
+.body-index {
+    color: #ffffff;
     background: #070707 url("../img/bg-index-body.jpg") no-repeat center top;
-    /* background-color: black;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 1800px auto; */
 }
 
-
-
-
-/*================================
-=            $Отладка            =
-================================
-
-.body-test {
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: center top;
+.body-inner {
+    color: #000000;
+    background: #f8f5f2;
 }
-
-.body-test-index {
-    background-color: black;
-    background-image: url('barbershop-index.jpg');
-    background-size: 2560px auto;
-}
-
-.body-test-price {
-    background-color: white;
-    background-image: url('barbershop-price.jpg');
-    background-size: 1200px auto;
-}
-
-.body-test-catalog {
-    background-color: white;
-    background-image: url('barbershop-shop.jpg');
-    background-size: 1200px auto;
-}
-
-.body-test-item {
-    background-color: white;
-    background-image: url('barbershop-item.jpg');
-    background-size: 1200px auto;
-}
-
-div, section, nav, header, footer, main {
-    background: rgba(255, 255, 0, 0.5);
-    border: 1px dashed red;
-}
-
-/*-----  End of $Отладка  ------*/
-
-
 
 .clearfix:after {
     content: "";
@@ -122,6 +87,10 @@ figure {
     background: #000000;
 }
 
+/*-----  End of $Общие стили  ------*/
+
+
+
 
 /*===============================
 =            $Header            =
@@ -130,6 +99,7 @@ figure {
 .main-header {
     margin-bottom: 60px;
     background: #000000;
+    color: #ffffff;
 }
 
 .main-navigation {
@@ -406,6 +376,7 @@ figure {
     padding-top: 60px;
     padding-bottom: 40px;
     background: #232323 url("../img/bg-footer.jpg") repeat;
+    color: #ffffff;
 }
 
 .footer-contacts {
@@ -496,7 +467,12 @@ figure {
 
 
 
-/* для прайс-листа */
+
+
+
+/*===================================
+=            $Прайс-лист            =
+===================================*/
 
 .breadcrumbs li{
     display: inline-block;
@@ -523,6 +499,9 @@ figure {
     /* для оформления */
     min-height: 150px;
 }
+
+/*-----  End of $Прайс-лист  ------*/
+
 
 
 /* для каталога */
